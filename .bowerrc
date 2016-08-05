@@ -1,0 +1,5 @@
+{
+  "directory": "app/bower_components",
+  "proxy":"http://icecrown.isis.airnz.co.nz:5865",
+  "https-proxy":"http://icecrown.isis.airnz.co.nz:5865"
+}

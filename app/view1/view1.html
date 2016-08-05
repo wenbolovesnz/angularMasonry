@@ -1,0 +1,24 @@
+<p>This is the partial for view 1.</p>
+
+<!--<div style="width: 900px">-->
+    <!--<masonry>-->
+        <!--<div class="masonry-brick" ng-repeat="brick in bricks">-->
+            <!--<img  style="width: 200px" ng-src="{{ brick.src }}" alt="A masonry brick">-->
+        <!--</div>-->
+    <!--</masonry>-->
+<!--</div>-->
+
+<div style="width: 100%">
+    <div style="width: 1040px; margin: auto">
+        <div masonry>
+            <div class="masonry-brick" ng-repeat="brick in bricks">
+                <img style="width: 505px" ng-src="{{ brick.src }}" alt="A masonry brick">
+            </div>
+        </div>
+    </div>
+    <button ng-click="more()">more</button>
+</div>
+
+
+
+
